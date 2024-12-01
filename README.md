@@ -27,6 +27,21 @@ This interactive tool visualizes all possible paths from point O (0,0) to point 
 
 ## Usage
 
+There are two ways to run the visualization:
+
+### 1. Standalone Application (Recommended)
+Run the standalone version with Tkinter GUI:
+```bash
+python run_visualization.py
+```
+
+This will open a window with:
+- Controls for grid dimensions (n and m)
+- Path selection dropdown
+- Real-time grid visualization
+- Total path count display
+
+### 2. Jupyter Notebook Version
 1. Start Jupyter Notebook:
    ```bash
    jupyter notebook
